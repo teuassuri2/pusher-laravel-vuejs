@@ -15,4 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('sendMessage', 'PusherController@sendMessage');
 Route::post('authenticate', 'PusherController@authenticate');
-
+Route::get('authenticate', 'PusherController@authenticate');
+Route::get('', 'PusherController@index');
